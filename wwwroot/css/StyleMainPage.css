@@ -1,0 +1,60 @@
+﻿ul, li {
+    display: block;
+}
+
+header {
+    font-family: 'Caveat', cursive;
+    padding-top: 30px;
+}
+
+header a {
+    color: #000;
+}
+
+.menu {
+    display: flex;
+}
+
+.singup_class {
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.singup_class a {
+    display: flex;
+    padding: 10px;
+}
+
+.singup {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.12em;
+}
+
+.reg {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    color: #f64c72;
+    box-shadow: 0 0 0 3px #f64c72;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 0.15em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: end;
+    float: right;
+}

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MuscSite</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/StyleMainPage.css" />
+</head>
+<body>
+    @RenderBody()
+
+    <header id="header" class="header">
+        <div class="header_container" id="header_container">
+            <div class="nav">
+                <div class="nav1">
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#">Музыканты</a>
+                        </li>
+                        <li>
+                            <a href="#">Альбомы</a>
+                        </li>
+                        <li>
+                            <a href="#">Популярное</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="singup_class">
+                    <div style="background-color: #f64c72;" class="singup_class">
+                        <a href="#" class="singup">
+                            Войти
+                        </a>
+                    </div>
+                    <div class="singup_class">
+                        <a href="#" class="reg">
+                            Зарегестрироваться
+                        </a>
+                    </div>
+                </div>
+                <div class="account">
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>*@
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
